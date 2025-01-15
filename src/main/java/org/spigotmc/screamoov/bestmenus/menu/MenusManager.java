@@ -17,7 +17,7 @@ public class MenusManager {
     public void registerMenu(String MENU) {
         File MENU_FILE = new File("plugins/bestMenus/menus/" + MENU + ".yml");
         if (!MENU_FILE.exists()) {
-            Menus.getLog().
+            Menus.getLog().print(null, "Error while registering menu " + MENU);
         }
     }
 }

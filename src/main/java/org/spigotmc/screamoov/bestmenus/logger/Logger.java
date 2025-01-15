@@ -4,6 +4,8 @@ import org.bukkit.plugin.Plugin;
 import org.spigotmc.screamoov.bestmenus.Menus;
 import org.spigotmc.screamoov.bestmenus.menu.menus.Menu;
 
+import static org.spigotmc.screamoov.bestmenus.utils.Colorize.color;
+
 public class Logger {
     public String PLUGIN_NAME;
     public Plugin PLUGIN;
@@ -22,6 +24,6 @@ public class Logger {
     }
 
     public void print(Menu MENU, String MESSAGE) {
-        System.out.println("[bestMenus/" + MENU.NAME + "] " + MESSAGE);
+        System.out.println("[bestMenus/" + MENU.NAME + "] " + color(MESSAGE));
     }
 }
