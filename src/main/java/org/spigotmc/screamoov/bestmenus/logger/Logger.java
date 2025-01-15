@@ -2,6 +2,7 @@ package org.spigotmc.screamoov.bestmenus.logger;
 
 import org.bukkit.plugin.Plugin;
 import org.spigotmc.screamoov.bestmenus.Menus;
+import org.spigotmc.screamoov.bestmenus.menu.menus.Menu;
 
 public class Logger {
     public String PLUGIN_NAME;
@@ -18,5 +19,9 @@ public class Logger {
         } else {
             System.out.println("Plugin bestMenus starting sync..");
         }
+    }
+
+    public void print(Menu MENU, String MESSAGE) {
+        System.out.println("[bestMenus/" + MENU.NAME + "] " + MESSAGE);
     }
 }
