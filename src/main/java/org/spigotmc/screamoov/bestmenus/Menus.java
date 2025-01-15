@@ -11,6 +11,7 @@ public final class Menus extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        saveDefaultConfig();
         if (getConfig().getBoolean("async")) ASYNC = true;
         LOGGER = new Logger(this);
         LOGGER.enable();
