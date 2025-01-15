@@ -1,0 +1,11 @@
+name: bestMenus
+version: '${project.version}'
+main: org.spigotmc.screamoov.bestmenus.Menus
+api-version: '1.16'
+authors: [ lxckScream ]
+commands:
+  bm:
+    aliases:
+      - bestmenus
+      - bmenus
+      - bmenu

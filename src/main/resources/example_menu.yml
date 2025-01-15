@@ -1,0 +1,21 @@
+# Пример меню
+
+Menu Settings:
+  Open Command: example
+  Size: 27
+
+Items:
+  X:
+    Display Name: "&6Кнопка 1"
+    Lore:
+      - "&fОбычная кнопка.."
+  P1:
+    Display Name: "&6"
+    Lore:
+      - "&7Там по середине кнопка есть, нажми на неё.."
+      - "&f"
+
+Inventory Building:
+  - P1 P1 P1 P1 P1 P1 P1 P1 P1
+  - P1 P1 P1 P1 X P1 P1 P1 P1
+  - P1 P1 P1 P1 P1 P1 P1 P1 P1
